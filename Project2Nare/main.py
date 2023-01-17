@@ -1,6 +1,7 @@
 from random import randint
 from sys import breakpointhook
 
+
 class Game():
     def __init__(self):
         self.fDice = randint(1, 6)
